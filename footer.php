@@ -1,1 +1,2 @@
-<footer><?php wp_footer()?></footer>
+<footer></footer>
+    <?php wp_footer(); ?>
