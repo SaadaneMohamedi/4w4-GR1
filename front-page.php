@@ -1,5 +1,5 @@
 <?php get_header()?>
-    <pre>index.php</pre>
+    <pre>front-page.php</pre>
     <main><h1>Bienvenue sur 4W4</h1></main>
     <?php
         if (have_posts()):
