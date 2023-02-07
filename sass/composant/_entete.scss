@@ -5,3 +5,16 @@
     font-size: clamp(1rem, 0.3864rem + 2.4545vw, 4.375rem);
     color: aqua;
 }
+
+.menu__entete{
+    .menu{
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        .menu-item{
+            a{
+                padding: 3px 5px;
+            }
+        }
+    }
+}
