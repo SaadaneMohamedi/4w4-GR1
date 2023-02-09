@@ -421,6 +421,10 @@ a{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+a:hover{
+  color: rgb(255, 0, 255);
+}
+
 .site__header__logo{
   display: flex;
   justify-content: space-between;
