@@ -13,5 +13,5 @@
         <?php wp_nav_menu(array("menu" => "entete", "container" => "nav", "container_class" => "menu__entete"));?>
         <h1><a class="site__titre" href="<?= bloginfo('url');?>"><?= bloginfo('name');?></a></h1>
         <h2><?= bloginfo('description');?></h2>
-        <h3><?= bloginfo('url');?></h3>
+        <h3 class="h3"><?= bloginfo('url');?></h3>
     </header>
