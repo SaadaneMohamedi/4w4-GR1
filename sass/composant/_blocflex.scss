@@ -1,0 +1,9 @@
+.blocflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    article{
+        flex: 1 0 250px;
+    }
+}

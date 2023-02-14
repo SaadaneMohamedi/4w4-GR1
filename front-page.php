@@ -1,6 +1,7 @@
 <?php get_header()?>
     <pre>front-page.php</pre>
     <main><h1>Bienvenue sur 4W4</h1></main>
+    <section class="blocflexx">
     <?php
         if (have_posts()):
             while (have_posts()): the_post();?>
@@ -10,6 +11,7 @@
                 </article>
             <?php endwhile;?>
         <?php endif;?>
+    </section>
     <?php get_footer()?>
 </body>
 </html>
