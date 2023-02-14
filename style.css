@@ -391,6 +391,17 @@ p {
   padding: 3px 5px;
 }
 
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blocflex article {
+  flex: 1 0 250px;
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid rgb(255, 0, 255);
+}
 /* ------------------------------------------------------- */
 body{
   background: rgb(43,0,122);

@@ -1,0 +1,42 @@
+/* ------------------------------------------------------- */
+body{
+  background: rgb(43,0,122);
+  background: linear-gradient(15deg, rgba(43,0,122,1) 0%, rgba(61,10,163,1) 41%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+
+.site__titre, h2, .h3, pre, main, article {
+  padding-left: 30px;
+}
+
+.menu{
+  background-color: darkslateblue;
+  padding-right: 30px;
+}
+
+h1{
+  color: blueviolet
+}
+
+.site__titre{
+  color: rgb(255, 0, 255);
+}
+
+a{
+  color: cyan;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover{
+  color: rgb(255, 0, 255);
+}
+
+.site__header__logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
