@@ -375,12 +375,13 @@ p {
 ul, ol {
   margin: 1rem 0rem;
   padding: 3px;
+  list-style: none;
 }
 @media screen and (min-width: 400px) {
   ul, ol {
     margin: 1rem 0.5rem;
     padding: 13px;
-    list-style: none;
+    list-style-type: circle;
   }
 }
 @media screen and (min-width: 700px) {
@@ -388,10 +389,6 @@ ul, ol {
     margin: 1rem 0.5rem;
     padding: 15px;
   }
-}
-
-ul {
-  list-style-type: circle;
 }
 
 ul li, ol li {
