@@ -17,6 +17,26 @@ ul{
     
 }
 
+ul li::before{
+    content: "-";
+    background: rgb(255, 0, 255);
+    border-radius: 0.5rem;
+    padding-inline: 0.5rem;
+    margin-inline-end: 0.5rem;
+}
+
+ul li ul li::before{
+    content: "-";
+    background: rgb(255, 0, 255);
+    border-radius: 0.5rem;
+    padding-inline: 0.5rem;
+    margin-inline-end: 0.5rem;
+}
+
+ul li li::before{
+    background: transparent;
+}
+
 ul li, ol li{
     margin: 0.5rem 0rem;
 }

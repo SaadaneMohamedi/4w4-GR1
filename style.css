@@ -391,6 +391,26 @@ ul, ol {
   }
 }
 
+ul li::before {
+  content: "-";
+  background: rgb(255, 0, 255);
+  border-radius: 0.5rem;
+  padding-inline: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+ul li ul li::before {
+  content: "-";
+  background: rgb(255, 0, 255);
+  border-radius: 0.5rem;
+  padding-inline: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+ul li li::before {
+  background: transparent;
+}
+
 ul li, ol li {
   margin: 0.5rem 0rem;
 }
@@ -417,6 +437,13 @@ pre {
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
 }
+.menu__entete .menu .menu-item::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
+}
 
 .blocflex {
   display: flex;
@@ -429,6 +456,7 @@ pre {
   margin: 10px;
   border: 3px solid rgb(255, 0, 255);
 }
+
 /* ------------------------------------------------------- */
 body{
   background: rgb(43,0,122);
