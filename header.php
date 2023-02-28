@@ -19,5 +19,13 @@
         <h3 class="h3"><?= bloginfo('url');?></h3>
     </header>
     <aside class="site__aside">
-        <h3>menu secondaire</h3>
+        <?php 
+        $category = get_queried_object();
+        if (isset($category)) {
+            $menu = $category->slug;
+        } else {
+            $menu = "aside";
+        }
+        
+        wp_nav_menu(array("menu" => $menu, "container" => "nav", "container_class" => "menu__aside"));?>
     </aside>
