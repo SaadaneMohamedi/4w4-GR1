@@ -7,7 +7,7 @@
     <title>mon 4W4</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body class="site">
     <header class="site__entete">
         <section class="site__header__logo">
             <?php the_custom_logo()?>
@@ -18,3 +18,6 @@
         <h2><?= bloginfo('description');?></h2>
         <h3 class="h3"><?= bloginfo('url');?></h3>
     </header>
+    <aside class="site__aside">
+        <h3>menu secondaire</h3>
+    </aside>
