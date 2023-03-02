@@ -453,7 +453,9 @@ pre {
 .blocflex article {
   flex: 1 0 250px;
   padding: 5px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   border: 3px solid rgb(255, 0, 255);
 }
 
@@ -503,7 +505,6 @@ body{
 
 .menu{
   background-color: darkslateblue;
-  padding-right: 30px;
 }
 
 h1{
@@ -512,6 +513,10 @@ h1{
 
 .site__titre{
   color: rgb(255, 0, 255);
+}
+
+p{
+  font-size: 70%;
 }
 
 a{
