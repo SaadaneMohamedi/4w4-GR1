@@ -7,7 +7,7 @@
     <title>mon 4W4</title>
     <?php wp_head(); ?>
 </head>
-<body class="site">
+<body class="site <?php echo(is_front_page() ? "no-aside" : "")?>">
     <header class="site__entete">
         <section class="site__header__logo">
             <?php the_custom_logo()?>
@@ -19,14 +19,4 @@
         <h2><?= bloginfo('description');?></h2>
         <h3 class="h3"><?= bloginfo('url');?></h3>
     </header>
-    <aside class="site__aside">
-        <?php 
-        $category = get_queried_object();
-        if (isset($category)) {
-            $menu = $category->slug;
-        } else {
-            $menu = "aside";
-        }
-        
-        wp_nav_menu(array("menu" => $menu, "container" => "nav", "container_class" => "menu__aside"));?>
-    </aside>
+    <?php if (!is_front_page()) { get_template_part("template-parts/aside");}?>
