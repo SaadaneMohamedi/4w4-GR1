@@ -11,6 +11,12 @@
         display: flex;
         list-style-type: none;
         justify-content: flex-end;
+        transform: translateX(30rem);
+        @media screen and (min-width: 500px){
+            flex-direction: row;
+            transform: translateX(0);
+        }
+
         .menu-item{
             a{
                 padding: 3px 5px;
@@ -24,5 +30,14 @@
             padding-inline: 0;
             margin-inline-end: 0;
         }
+    }
+}
+
+.menu__recherche{
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: $largeur__bureau){
+        flex-direction: row;
+        align-items: center;
     }
 }

@@ -433,6 +433,13 @@ pre {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
+  transform: translateX(30rem);
+}
+@media screen and (min-width: 500px) {
+  .menu__entete .menu {
+    flex-direction: row;
+    transform: translateX(0);
+  }
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
@@ -443,6 +450,17 @@ pre {
   border-radius: 0;
   padding-inline: 0;
   margin-inline-end: 0;
+}
+
+.menu__recherche {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1000px) {
+  .menu__recherche {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .blocflex {
@@ -463,6 +481,15 @@ pre {
   flex: 1 0 100%;
   padding: 0px;
   margin-right: 10px;
+}
+
+.recherche {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 3rem;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* --------------------------------------------- layout */
@@ -520,7 +547,7 @@ body{
   padding-left: 30px;
 }
 
-.menu{
+.menu__recherche{
   background-color: darkslateblue;
 }
 

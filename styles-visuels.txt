@@ -9,7 +9,7 @@ body{
   padding-left: 30px;
 }
 
-.menu{
+.menu__recherche{
   background-color: darkslateblue;
 }
 
