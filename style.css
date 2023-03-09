@@ -459,6 +459,12 @@ pre {
   border: 3px solid rgb(255, 0, 255);
 }
 
+.blocflex__galerie {
+  flex: 1 0 100%;
+  padding: 0px;
+  margin-right: 10px;
+}
+
 /* --------------------------------------------- layout */
 .site__entete {
   grid-area: header;
