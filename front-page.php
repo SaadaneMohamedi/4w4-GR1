@@ -3,12 +3,12 @@
     <main class="site__main">
         <h1>Bienvenue sur 4W4</h1>
         <?php
-            if (in_category('galerie')) {
+            /*if (in_category('galerie')) {
                 get_template_part("template-parts/categorie", "galerie");
             }
             else {
                 get_template_part("template-parts/categorie", "4w4");
-            }
+            }*/
         ?>
         <section class="blocflex">
         <?php

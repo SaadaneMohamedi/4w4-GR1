@@ -7,14 +7,19 @@
 }
 
 .menu__entete{
+    transform: translateX(300px);
+    transition: transform 0.5s;
+    @media screen and (min-width: $largeur__tablette){
+        transform: translateX(0);
+    }
     .menu{
         display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         list-style-type: none;
-        justify-content: flex-end;
-        transform: translateX(30rem);
-        @media screen and (min-width: 500px){
+        @media screen and (min-width: $largeur__tablette){
             flex-direction: row;
-            transform: translateX(0);
+            align-items: center;
         }
 
         .menu-item{
@@ -33,11 +38,39 @@
     }
 }
 
+.burger{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    @media screen and (min-width:$largeur__tablette) {
+        display: none;
+    }
+}
+
+#chkBurger:checked ~ .menu__entete{
+    transform: translateX(0);
+}
+
+#chkBurger{
+    display: none;
+}
+
 .menu__recherche{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: flex-end;
     @media screen and (min-width: $largeur__bureau){
         flex-direction: row;
         align-items: center;
+        justify-content: flex-end;
     }
+}
+
+.entete__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
 }

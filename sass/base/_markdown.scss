@@ -18,19 +18,13 @@ ul{
 }
 
 ul li::before{
-    content: "-";
-    background: rgb(255, 0, 255);
-    border-radius: 0.5rem;
-    padding-inline: 0.5rem;
-    margin-inline-end: 0.5rem;
+    content: "";
+    background: transparent;
 }
 
 ul li ul li::before{
-    content: "-";
-    background: rgb(255, 0, 255);
-    border-radius: 0.5rem;
-    padding-inline: 0.5rem;
-    margin-inline-end: 0.5rem;
+    content: "";
+    background: transparent;
 }
 
 ul li li::before{
