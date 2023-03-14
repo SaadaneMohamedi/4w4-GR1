@@ -4,7 +4,7 @@
         
     }*/
 ?>
-<article>
-    <h5><a href="<?php the_permalink(); ?>"> <?= $titre; ?></a></h5>
+<article class="blocflex__article">
+    <a href="<?php the_permalink();?>"><h3><?php the_title();?></h3></a>
     <p><?= wp_trim_words(get_the_excerpt(), 15)?></p>
 </article>
