@@ -50,3 +50,7 @@ pre{
 .site__aside{
     background-color: black;
 }
+
+.custom-logo{
+  border-radius: 50%;
+}
