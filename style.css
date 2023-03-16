@@ -409,10 +409,6 @@ ul li, ol li {
   margin: 0.5rem 0rem;
 }
 
-pre {
-  color: rgb(160, 255, 255);
-}
-
 /* --------------------------------------------- composant */
 .site__titre {
   text-decoration: none;
@@ -508,7 +504,6 @@ pre {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
-  border: 3px solid rgb(255, 0, 255);
 }
 
 .blocflex__galerie {
@@ -539,12 +534,10 @@ pre {
 
 .site__footer {
   grid-area: footer;
-  background-color: rgb(128, 0, 255);
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(255, 0, 255);
 }
 
 .site {
@@ -572,8 +565,8 @@ pre {
 }
 /* ------------------------------------------------------- */
 body{
-  background: rgb(43,0,122);
-  background: linear-gradient(15deg, rgba(43,0,122,1) 0%, rgba(61,10,163,1) 41%, rgba(0,212,255,1) 100%);
+  background: rgb(5,153,0);
+  background: linear-gradient(180deg, rgba(5,153,0,1) 0%, rgba(0,0,0,1) 100%);
   color: white;
 }
 
@@ -582,15 +575,15 @@ body{
 }
 
 .menu__recherche{
-  background-color: darkslateblue;
+  background-color: black;
 }
 
 h1{
-  color: blueviolet
+  color: white;
 }
 
 .site__titre{
-  color: rgb(255, 0, 255);
+  color: black;
 }
 
 p{
@@ -598,11 +591,27 @@ p{
 }
 
 a{
-  color: cyan;
+  color: rgb(9, 255, 0);
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a:hover{
-  color: rgb(255, 0, 255);
+  color: rgb(255, 255, 0);
+}
+
+.blocflex__article{
+    border: 3px solid rgb(255, 255, 0);
+}
+
+pre{
+    color: rgb(153, 255, 153);
+}
+
+.site__footer{
+    background-color: black;
+}
+
+.site__aside{
+    background-color: black;
 }

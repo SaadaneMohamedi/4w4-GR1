@@ -1,0 +1,52 @@
+/* ------------------------------------------------------- */
+body{
+  background: rgb(5,153,0);
+  background: linear-gradient(180deg, rgba(5,153,0,1) 0%, rgba(0,0,0,1) 100%);
+  color: white;
+}
+
+.site__titre, h2, .h3, pre, main, article {
+  padding-left: 30px;
+}
+
+.menu__recherche{
+  background-color: black;
+}
+
+h1{
+  color: white;
+}
+
+.site__titre{
+  color: black;
+}
+
+p{
+  font-size: 70%;
+}
+
+a{
+  color: rgb(9, 255, 0);
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover{
+  color: rgb(255, 255, 0);
+}
+
+.blocflex__article{
+    border: 3px solid rgb(255, 255, 0);
+}
+
+pre{
+    color: rgb(153, 255, 153);
+}
+
+.site__footer{
+    background-color: black;
+}
+
+.site__aside{
+    background-color: black;
+}

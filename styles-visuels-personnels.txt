@@ -34,3 +34,19 @@ a{
 a:hover{
   color: rgb(255, 0, 255);
 }
+
+.blocflex__article{
+    border: 3px solid rgb(255, 0, 255);
+}
+
+pre{
+    color: rgb(160, 255, 255);
+}
+
+.site__footer{
+    background-color: rgb(127.5, 0, 255);
+}
+
+.site__aside{
+    background-color: rgb(255, 0, 255);
+}
