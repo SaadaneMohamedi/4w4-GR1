@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon 4W4</title>
+    <title>Bienvenue au TIM</title>
     <?php wp_head(); ?>
 </head>
 <body class="site <?php echo(is_front_page() ? "no-aside" : "")?>">
@@ -18,7 +18,5 @@
                 <label class="burger" for="chkBurger"><img src="https://i.pinimg.com/originals/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg" width="35" height="35"></label>
             </div>
         </section>
-        <h1><a class="site__titre" href="<?= bloginfo('url');?>"><?= bloginfo('name');?></a></h1>
-        <h2><?= bloginfo('description');?></h2>
     </header>
     <?php if (!is_front_page()) { get_template_part("template-parts/aside");}?>

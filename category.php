@@ -1,6 +1,6 @@
 <?php get_header()?>
     <main class="site__main">
-        <h1>Bienvenue sur 4W4</h1>
+        <h1>Bienvenue au TIM</h1>
         <section class="blocflex">
             <?php $category = get_queried_object(); $args = array( 'category_name' => $category->slug, 'orderby' => 'title', 'order' => 'ASC');
             $query = new WP_Query($args);
