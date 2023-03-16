@@ -420,7 +420,7 @@ ul li, ol li {
 }
 
 .menu__entete {
-  transform: translateX(300px);
+  transform: translateX(300em);
   transition: transform 0.5s;
 }
 @media screen and (min-width: 800px) {
@@ -453,6 +453,7 @@ ul li, ol li {
 
 .burger {
   display: block;
+  padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -618,4 +619,12 @@ pre{
 
 .custom-logo{
   border-radius: 50%;
+}
+
+.aside-titre{
+  color: rgb(9, 255, 0);
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
 }

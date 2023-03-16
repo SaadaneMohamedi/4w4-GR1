@@ -12,6 +12,7 @@
     if (in_category('cours')){ 
         $menu = "cours";
     }
-    echo $menu;
-    wp_nav_menu(array("menu" => $menu, "container" => "nav"));?>
+    ?>
+    <p class="aside-titre"><?= $menu;?></p>
+    <?php wp_nav_menu(array("menu" => $menu, "container" => "nav"));?>
 </aside>

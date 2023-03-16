@@ -54,3 +54,11 @@ pre{
 .custom-logo{
   border-radius: 50%;
 }
+
+.aside-titre{
+  color: rgb(9, 255, 0);
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
