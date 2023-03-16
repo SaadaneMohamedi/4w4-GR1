@@ -1,6 +1,6 @@
 <aside class="site__aside">
     <?php
-    $menu = "4w4";
+    $menu = "Notes 4W4";
     if (in_category('cours')){ 
         $menu = "cours";
     }
