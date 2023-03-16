@@ -580,7 +580,7 @@ body{
 }
 
 h1{
-  color: white;
+  color: rgb(153, 255, 153);
 }
 
 .site__titre{
@@ -628,4 +628,8 @@ pre{
   margin-bottom: 10px;
   padding-top: 10px;
   padding-left: 8px;
+}
+
+.wp-element-caption{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
