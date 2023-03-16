@@ -15,14 +15,10 @@ Text Domain: 4w4-Eddy-martin
 
 @import "variable/dimension";
 @import "normalize/normalize";
-// @import "normalize/box-sizing";
 
 /* --------------------------------------------- base */
 @import "base/heading";
 @import "base/markdown";
-// @import "base/espacement";
-// @import "base/lien";
-// @import "base/list";
 
 /* --------------------------------------------- composant */
 @import "composant/entete";
@@ -31,5 +27,3 @@ Text Domain: 4w4-Eddy-martin
 
 /* --------------------------------------------- layout */
 @import "layout/aside-contenu";
-//@import "layout/blocflex";
-//@import "layout/recherche";

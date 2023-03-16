@@ -1,13 +1,10 @@
 <?php
-/**
-* L'ensemble des fonctions du thème
-*/
 function enfiler_css() {
 wp_enqueue_style('4w4-gr1-principal', // id
-        get_template_directory_uri() . '/style.css', // adresse url de style.css
-        array(), // définir les dépendances
-        filemtime(get_template_directory() . '/style.css'), // le calcul de la version du fichier css
-        'all'); // media
+        get_template_directory_uri() . '/style.css',
+        array(),
+        filemtime(get_template_directory() . '/style.css'),
+        'all');
 }        
 
 add_action( 'wp_enqueue_scripts', 'enfiler_css' ); 
@@ -35,9 +32,7 @@ function cidweb_modifie_requete_principal( $query ) {
 add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
 
 function perso_menu_item_title($title, $item, $args, $depth) {
-        // Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
         if($args->menu == 'cours') {
-    // Modifier la longueur du titre en fonction de vos besoins
     $title = wp_trim_words($title, 3, ' ... ');
     }
     return $title;

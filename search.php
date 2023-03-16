@@ -1,10 +1,4 @@
 <?php
-/**
- * Modèle de recherche
- */
-?>
-
-<?php
 get_header();
 ?>
 <main class="site__main">
