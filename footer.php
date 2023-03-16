@@ -1,6 +1,14 @@
 <footer class="site__footer">
-    <section class="lien">Lien #1</section>
-    <section class="lien">Lien #2</section>
-    <section class="lien">Lien #3</section>
+<section class="site_footer_logo">
+ <?php the_custom_logo();?>
+ <nav class="footer">
+    <h5>Plus ici!</h5>
+    <?php wp_nav_menu(array(
+        "menu" => "footer",
+        "container" => "nav",
+        "container_class" => "menufooter", )); ?>
+</nav>
 </footer>
-    <?php wp_footer(); ?>
+<?php wp_footer(); ?>
+</body>
+</html>
