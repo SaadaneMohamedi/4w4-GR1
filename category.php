@@ -1,5 +1,4 @@
 <?php get_header()?>
-    <pre>category.php</pre>
     <main class="site__main">
         <h1>Bienvenue sur 4W4</h1>
         <section class="blocflex">
