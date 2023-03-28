@@ -32,8 +32,14 @@ function cidweb_modifie_requete_principal( $query ) {
 add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
 
 function perso_menu_item_title($title, $item, $args, $depth) {
-        if($args->menu == 'cours') {
-    $title = wp_trim_words($title, 3, ' ... ');
+    if($args->menu == 'cours') {
+        $title = wp_trim_words($title, 3, ' ... ');
+    }
+    
+    if($args->menu == 'Notes 4W4') {
+        if (substr($title,0,1) == '0') {
+                $title = substr($title,1);
+        }
     }
     return $title;
     }
