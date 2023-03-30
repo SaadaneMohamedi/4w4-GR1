@@ -666,3 +666,17 @@ pre{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.recherche__404 form{
+  justify-content: center;
+  padding: 0px;
+}
+
+.recherche__404 input{
+  width: 25rem;
+  opacity: 0.8;
+}
+
+.recherche__404 button{
+  opacity: 0.8;
+}
