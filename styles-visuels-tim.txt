@@ -66,3 +66,24 @@ pre{
 .wp-element-caption{
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
+.site__404::before {
+  content: "";
+  background-image: url("https://mir-s3-cdn-cf.behance.net/user/276/677558833676621.5ffdca996964a.png");
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+  z-index: -10;
+}
+
+.titre__404 {
+  margin: 0 auto;
+  text-align: center;
+}

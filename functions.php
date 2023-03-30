@@ -45,14 +45,4 @@ function perso_menu_item_title($title, $item, $args, $depth) {
     }
     add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 4);
 
-$defaults = array(
-	'default-image'          => 'https://mir-s3-cdn-cf.behance.net/user/276/677558833676621.5ffdca996964a.png',
-	'default-preset'         => 'default', // 'default', 'fill', 'fit', 'repeat', 'custom'
-	'default-position-x'     => 'left',    // 'left', 'center', 'right'
-	'default-position-y'     => 'top',     // 'top', 'center', 'bottom'
-	'default-size'           => 'auto',    // 'auto', 'contain', 'cover'
-	'default-repeat'         => 'repeat',  // 'repeat-x', 'repeat-y', 'repeat', 'no-repeat'
-	'default-color'          => '',
-);
-
-add_theme_support( 'custom-background', $defaults );
+add_theme_support( 'custom-background' );
