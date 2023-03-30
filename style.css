@@ -653,3 +653,16 @@ pre{
   margin: 0 auto;
   text-align: center;
 }
+
+.menu__404 ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu__404 ul a{
+  padding-left: 15px;
+  padding-right: 15px;
+}
