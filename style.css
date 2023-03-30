@@ -669,7 +669,8 @@ pre{
 
 .recherche__404 form{
   justify-content: center;
-  padding: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .recherche__404 input{
