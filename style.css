@@ -633,3 +633,9 @@ pre{
 .wp-element-caption{
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
+.footer_col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
