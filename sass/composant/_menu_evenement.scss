@@ -1,0 +1,12 @@
+.menu-evenement-container{
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+
+        .menu-item{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

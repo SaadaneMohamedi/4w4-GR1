@@ -497,6 +497,7 @@ ul li, ol li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  max-height: 100vh;
 }
 
 .blocflex__article {
@@ -520,6 +521,16 @@ ul li, ol li {
   height: 3rem;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.menu-evenement-container .menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.menu-evenement-container .menu .menu-item {
+  display: flex;
+  flex-direction: column;
 }
 
 /* --------------------------------------------- layout */
@@ -564,7 +575,6 @@ ul li, ol li {
     grid-template-areas: "header" "main" "." "footer";
   }
 }
-/* ------------------------------------------------------- */
 body{
   background: rgb(5,153,0);
   background: linear-gradient(180deg, rgba(5,153,0,1) 0%, rgba(0,0,0,1) 100%);
