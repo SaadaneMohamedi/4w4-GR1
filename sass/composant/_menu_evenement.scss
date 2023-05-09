@@ -5,11 +5,17 @@
         background-color: black;
 
         .menu-item{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid yellow;
+            height: auto;
+            margin: 10px;
+
             a{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                
+                margin: 10px;
                 .title{
                     font-size: 1.5rem;
                 }

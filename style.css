@@ -528,10 +528,18 @@ ul li, ol li {
   justify-content: space-between;
   background-color: black;
 }
+.menu-evenement-container .menu .menu-item {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow;
+  height: auto;
+  margin: 10px;
+}
 .menu-evenement-container .menu .menu-item a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 10px;
 }
 .menu-evenement-container .menu .menu-item a .title {
   font-size: 1.5rem;
