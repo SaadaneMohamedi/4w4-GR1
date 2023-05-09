@@ -5,8 +5,22 @@
         background-color: black;
 
         .menu-item{
-            display: flex;
-            flex-direction: column;
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                .title{
+                    font-size: 1.5rem;
+                }
+                .description{
+                    font-size: 0.8rem;
+                }
+                .menu-thumbnail{
+                    display: block;
+                    width: 150px;
+                }
+            }
         }
     }
 }

@@ -528,9 +528,20 @@ ul li, ol li {
   justify-content: space-between;
   background-color: black;
 }
-.menu-evenement-container .menu .menu-item {
+.menu-evenement-container .menu .menu-item a {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.menu-evenement-container .menu .menu-item a .title {
+  font-size: 1.5rem;
+}
+.menu-evenement-container .menu .menu-item a .description {
+  font-size: 0.8rem;
+}
+.menu-evenement-container .menu .menu-item a .menu-thumbnail {
+  display: block;
+  width: 150px;
 }
 
 /* --------------------------------------------- layout */
@@ -649,4 +660,3 @@ pre{
   flex-direction: row;
   justify-content: center;
 }
-/*
