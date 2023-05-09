@@ -497,7 +497,6 @@ ul li, ol li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-height: 100vh;
 }
 
 .blocflex__article {
