@@ -3,7 +3,7 @@
         <h1>Bienvenue au TIM</h1>
         <section class="blocflex">
             <?php wp_nav_menu(array("menu" => "evenement", "container" => "nav"));?>
-            <?php wp_nav_menu(array("menu" => "atelier", "container" => "nav"));?>
+            <?php wp_nav_menu(array("menu" => "entete_atelier", "container" => "nav"));?>
         </section>
         <section class="blocflex">
         <?php
