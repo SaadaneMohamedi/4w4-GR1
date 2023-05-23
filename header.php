@@ -19,4 +19,5 @@
             </div>
         </section>
     </header>
-    <?php if (!is_front_page()) { get_template_part("template-parts/aside");}?>
+    <?php if (!is_front_page() && (in_category("cours") || in_category("4w4"))) {get_template_part("template-parts/aside");}
+          else if (!is_front_page() && (!in_category("cours") && !in_category("4w4"))) {get_template_part("template-parts/aside-atelier");}?>
