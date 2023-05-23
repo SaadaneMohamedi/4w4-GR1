@@ -551,6 +551,34 @@ ul li, ol li {
   width: 150px;
 }
 
+@keyframes animHaut {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+}
+@keyframes animBas {
+  0% {
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(60px);
+  }
+}
+@keyframes animOpacite {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
 .menu-entete_atelier-container .menu {
   display: flex;
   justify-content: space-between;
@@ -570,14 +598,35 @@ ul li, ol li {
   margin: 10px;
 }
 .menu-entete_atelier-container .menu .menu-item a .title {
-  font-size: 1.5rem;
+  display: none;
+  font-size: 1.2rem;
 }
 .menu-entete_atelier-container .menu .menu-item a .description {
+  display: none;
   font-size: 0.8rem;
 }
 .menu-entete_atelier-container .menu .menu-item a .menu-thumbnail {
   display: block;
   width: 150px;
+}
+.menu-entete_atelier-container .menu .menu-item:hover .title {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  align-self: center;
+  width: 160px;
+  animation: animHaut 1s ease-in-out 0s 1 normal forwards;
+}
+.menu-entete_atelier-container .menu .menu-item:hover .description {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  align-self: center;
+  width: 160px;
+  animation: animBas 1s ease-in-out 0s 1 normal forwards;
+}
+.menu-entete_atelier-container .menu .menu-item:hover .menu-thumbnail {
+  animation: animOpacite 1s ease-in-out 0s 1 normal forwards;
 }
 
 /* --------------------------------------------- layout */
